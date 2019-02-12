@@ -1,0 +1,14 @@
+2D_Matrix:
+This program is the dp version of calculating the pascal triangle
+the recursive solution need theta(2^k)*variables of memory
+where as this dp version need theta(n*k) amount of memory
+The time taken by both the approach is almost same
+
+It is better to use dp version rather than recursive version when we have the limit on the stack memory usage and when we have more than user queries, in the second case dp uses the pre computed results where as the recursive approach recomputes the things repeatedly for every query.
+
+
+1D_Matrix;
+this 1d approach requires theta(k) memory
+the time taken by this approach is same as the other approach
+but if we need the intermediate results then we should go for 2d_approach,
+if we have more than one user queries it is better to go for for 2d_approch. 
