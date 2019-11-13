@@ -2,7 +2,7 @@
 #include<stdbool.h>
 
 void bottom_up(int* h,int n)
-{
+{ 
     int i,k,v,j;
     bool heap;
     for(i=n/2;i>0;i--)
